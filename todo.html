@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+<div class="container">
+<h1>To-do-List App</h1>
+<input id="input-bar" type="text">
+<button id="add" onclick="add()" >Add</button>
+<button id="save"  style="display:none">Save</button>
+<div id="inner">
+    <table id ="text-table">
+        <tr>
+        <td class="indexvalue" ></td>
+        <td class="textvalue"></td>
+        <td><button id="edit" style="display:none">Edit</button></td>
+        <td><button id="delete" style="display:none">Delete</button></td>
+    </tr>
+    </table>
+</div>
+<script src="todo.js">
+
+</script>
+</div>
+</body>
+</html>

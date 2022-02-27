@@ -1,0 +1,84 @@
+body{
+    background-image: linear-gradient(to right, rgb(218, 136, 136),rgb(167, 155, 134),rgb(134, 134, 93),rgb(115, 158, 115),rgb(179, 179, 230),rgb(197, 171, 218),rgb(228, 205, 228));
+}
+
+
+.container
+{
+    
+    max-width:750px;
+    height: auto;
+    border:3px solid black;
+    border:0px;
+    padding: 0px;
+    position: relative;
+    background-color:white;
+    left:380px;
+    border:1px solid green;
+    box-shadow: 7px 3px rgb(77, 74, 109);
+    border-radius: 12px;
+
+}
+h1{
+  
+    font-size: 8vh;
+    margin-left:15px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: rgb(167, 30, 20);
+   color:white;
+ 
+   
+}
+
+button{
+    width:110px;
+    font-size: 26px;
+    background-color: rgb(209, 209, 235);
+    margin:4px;
+    border-radius: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+input{
+    width:560px;
+    font-size: 30px;
+    background-color: rgb(206, 231, 189);
+    margin:4px;
+    margin-left:15px;
+    border-radius: 12px;
+}
+#inner
+{
+    width: 720px;
+    font-size: 30px;
+    background-color: rgb(240, 240, 247);
+    margin:2px;
+    margin-left:15px;
+    border-radius: 12px;
+
+}
+.newbutton
+{
+    width:130px;
+    height:40px;
+    border:1px solid black;
+    margin: 1px;
+    background-color: brown;
+   
+}
+
+.indexvalue{
+    width:50px;
+}
+.textvalue
+{
+    width:419px;
+}
+#edit
+{
+    background-color: red;
+}
+
+#delete{
+    background-color: green;
+}
